@@ -114,10 +114,7 @@ void ABaseFactory::OnDeath()
 	
 }
 
-// Исправьте фабрику так, чтобы при её уничтожении не удалялся актор,
-// а изменялся отображаемый меш.
-
 void ABaseFactory::SelfDestroed()
 {
-	//Destroy();
+	Destroy();
 }
